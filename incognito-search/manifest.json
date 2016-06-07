@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Incognito Search",
+	"description": "Search highlighted text in incognito from the context menu.",
+	"version": "0.1",
+	"permissions": [
+		"contextMenus"
+	],
+	"background": { 
+		"scripts": ["incognitoSearch.js"]
+	}
+}
